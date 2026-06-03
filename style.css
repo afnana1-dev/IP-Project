@@ -19,17 +19,18 @@ body {
 .top-ad-inner {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 10px 2rem;
+    padding: 14px 2rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     gap: 1rem;
 }
 .top-ad-image {
-    max-height: 90px;
+    max-height: 140px;
     width: auto;
-    height: 90px;
+    height: auto;
     object-fit: cover;
+    display: block;
 }
 .top-ad-cta {
     background-color: #e53935;
